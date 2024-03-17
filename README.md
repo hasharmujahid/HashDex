@@ -45,3 +45,44 @@ HASHDex is a specialized client tailored for the Stellar network exchange, provi
 - Configure and deploy multiple transaction bots, each tailored to execute specific strategies or operations.
 - Execute complex transactions involving multiple assets or paths with ease, utilizing the flexibility and power of HASHDex.
 - Monitor and manage multiple transaction bots simultaneously, allowing users to diversify their trading activities and optimize returns.
+
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3 installed on your system.
+- Django and required dependencies installed.
+- Or You can install requirements through the `requirments.txt` file
+
+### Installation
+
+1. Clone the repository:
+    
+    `https://github.com/hasharmujahid/HashDex.git`
+    
+2. Install dependencies:
+    
+    `pip install -r requirments.txt`
+    OR
+    `pip3 install stellar_sdk aiohttp django --break-system-packages`
+    
+3. Apply migrations:
+	```bash
+	python3 manage.py makemigrations 
+	python3 manage.py migrate 
+	python3 manage.py makemigrations botsmanager 
+	python3 manage.py migrate botsmanager
+	```
+
+### Usage
+
+1. Run the development server:
+    
+    `python3 manage.py runserver`
+    
+2. Access HASHDex through your preferred web browser at `http://localhost:8000`.
+
+### Deployment
+
+- To deploy using NGINX and WSGI server, configure your NGINX server to serve your Django application and use a WSGI server like Gunicorn or uWSGI for application serving.
