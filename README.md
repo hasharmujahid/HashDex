@@ -48,7 +48,19 @@ HASHDex is a specialized client tailored for the Stellar network exchange, provi
 
 ### Theme
 - The Web is based on  catpuchin theme and foucused on simplicity.
+- Login page
+  
   ![LoginPage](https://i.imgur.com/cgGsZkP.png)
+
+- Dashboard
+
+  ![](https://i.imgur.com/E2axtoE.png)
+
+- Run Bots
+
+  ![](https://i.imgur.com/2v6ktVR.png)
+
+  
 
 
 ## Getting Started
