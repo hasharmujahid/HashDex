@@ -46,6 +46,10 @@ HASHDex is a specialized client tailored for the Stellar network exchange, provi
 - Execute complex transactions involving multiple assets or paths with ease, utilizing the flexibility and power of HASHDex.
 - Monitor and manage multiple transaction bots simultaneously, allowing users to diversify their trading activities and optimize returns.
 
+### Theme
+- The Web is based on  catpuchin theme and foucused on simplicity.
+  ![LoginPage](https://imgur.com/a/ID69rAn)
+
 
 ## Getting Started
 
